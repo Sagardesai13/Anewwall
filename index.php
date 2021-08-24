@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
 
@@ -216,7 +217,8 @@
 
 
                     success: function(response) {}
-                )
+        })
+    }
     </script>
 
     <!-- Optional JavaScript; choose one of the two! -->
