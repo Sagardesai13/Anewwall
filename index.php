@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!doctype html>
 <html lang="en">
 
@@ -146,7 +146,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Simple Wall</h4>
                             <p class="card-text">A wall with beautiful texture</p>
-                            <a href="Simplewall.php" class="btn btn-primary">Gei Idea</a>
+                            <a href="Simplewall.php" class="btn btn-primary">Get Idea</a>
                         </div>
                     </div>
 
