@@ -82,7 +82,7 @@
 
       <div class="col-lg-6 col-md-6 col-12">
           <h2>A new wall</h2>
-          <p class="py-3"> Shruti jagtap and Sagar Desai. <p>
+          <p class="py-3">  We are working with artist in our town who crave for work and we provide them work. Nowadays, modern artistic wall is shining among the houses.We practise to paint and we show our creativity to people with few charges. <p>
             <a href="about/php" class="btn btn-success"> Know more </a>
       </div>
   </div>
