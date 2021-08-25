@@ -183,10 +183,10 @@
                 </div>
             </div>
         </div>
-        <div class="w-50 m-auto">
-
             <section class="my-auto">
-                <div class="py-auto">
+
+        <div class="w-50 m-auto">
+  <div class="py-auto">
                     <h2 class="text-center" id="contactus">Contact Us</h2>
                 <form action="credential/userinfo.php" method="post">
       <div class="form-group pb-4">
