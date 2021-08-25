@@ -212,7 +212,7 @@
     </section>
     </div>
     <footer>
-        <p class="p-3 bg-dark text-white text-center"> By @affairofcolors</p>
+        <p class="pt-3 bg-dark text-white text-center"> By @affairofcolors</p>
     </footer>
     <script type="text/javascript">
     function sendEmail() {
