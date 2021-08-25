@@ -190,7 +190,9 @@
                  <p class="p-3 bg-dark text-white text-center"> Call on: 9875068553</p>
                 <p class="p-3 bg-dark text-white text-center">mail : anew.wall0@gmail.com</p>
         </div>
+
     </section>
+    </div>
     <footer>
         <p class="p-3 bg-dark text-white text-center"> By @affairofcolors</p>
     </footer>
