@@ -10,9 +10,9 @@ use PHPMailer\PHPMailer\PHPMailer;
   require_once "PHPMailer/SMTP.php";
   require_once "PHPMailer/Exception.php";
 
-sendmail("jagtapshruti2610@gmail.com","Inquiry from customer","Sample body");
-echo "Calling for 1st";
 sendmail("sahilsu1998@gmail.com","Inquiry from customer","Sample body");
+echo "Calling for 1st";
+sendmail("jagtapshruti2610@gmail.com","Inquiry from customer","Sample body");
 echo "Calling for 2nd";
 function sendmail($email,$subject,$body)
 {
