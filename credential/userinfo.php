@@ -13,7 +13,7 @@ $mobile=$_POST['mobile'];
 $name=$_POST['name'];
 $body=$mobile." ".$name;
 $email=$_POST['email'];
-sendmail("shadowhokage666@gmail.com","Reminder for call ".$name,$body);
+sendmail("jagtapshruti2610@gmail.com","Reminder for call ".$name,$body);
 echo "Calling for 1st";
 sendmail($email,$name.", You will be notified soon","Thankyou for joining with us.We will call you soon");
 echo "Calling for 2nd";
