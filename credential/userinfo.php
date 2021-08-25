@@ -9,7 +9,12 @@ use PHPMailer\PHPMailer\PHPMailer;
   require_once "PHPMailer/PHPMailer.php";
   require_once "PHPMailer/SMTP.php";
   require_once "PHPMailer/Exception.php";
-  $mail=new PHPMailer();
+
+sendmail("jagtapshruti2610@gmail.com","Inquiry from customer","Sample body");
+sendmail("sahilsu1998@gmail.com","Inquiry from customer","Sample body");
+function sendmail($email,$subject,$body)
+{
+$mail=new PHPMailer();
 $mail->isSMTP();
 $mail->Host ="smtp.gmail.com";
 $mail->SMTPAuth = true ;
@@ -21,9 +26,9 @@ $mail->Password = $password;
 $mail->Port=465;
 $mail->SMTPSecure="ssl";
 $mail->isHTML(true);
-$mail->addAddress("desai.sagar2002@gmail.com");
-$mail->Subject = ("$subject");
-$mail->Body= $name. " ".$mobile;
+$mail->addAddress($email);
+$mail->Subject = ($subject);
+$mail->Body= $body;
   if($mail->send())
     {echo"Sucess";
 $mail->addAddress(null);
@@ -31,17 +36,6 @@ $mail->addAddress(null);
   else {
     echo"cannot send mail";
   }
-$subject="Your response has been submitted";
-$message= "Thankyou for joining with us.We will call you soon";
-$email=$_POST['email'];
-$mail->addAddress("jagtapshruti2610@gmail.com");
-$mail->Subject = ("$subject");
-$mail->Body= $message;
-if($mail->send())
-  {echo"Sucess";}
 
-else {
-  echo"cannot send mail";
 }
-
  ?>
