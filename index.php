@@ -188,8 +188,25 @@
             <section class="my-auto">
                 <div class="py-auto">
                     <h2 class="text-center" id="contactus">Contact Us</h2>
-                 <p class="p-3 bg-dark text-white text-center"> Call on: 9875068553</p>
-                <p class="p-3 bg-dark text-white text-center">anew.wall0@gmail.com</p>
+                <form action="credential/userinfo.php" method="post">
+      <div class="form-group">
+          <label> Phone number </label>
+          <input type="text" name="mobile" autocomplete="off" class="form-control" >
+          <label>  name </label>
+          <input type="text" name="name" autocomplete="off" class="form-control" >
+          <label> Adress </label>
+          <input type="text" name="adress" autocomplete="off" class="form-control" >
+          <div class="pt-3 center">
+            <label> Email </label>
+            <input type="email" name="email" autocomplete="off" class="form-control" >
+            <div class="pt-3 center">
+
+          <button type="submit" class="btn  btn-outline-dark " onclick="phonenumber($mobile);">call back</button>
+      </div>  </div>
+      </div>
+
+  </form>
+
         </div>
 
     </section>
