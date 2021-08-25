@@ -188,7 +188,7 @@
                 <div class="py-auto">
                     <h2 class="text-center" id="contactus">Contact Us</h2>
                  <p class="p-3 bg-dark text-white text-center"> Call on: 9875068553</p>
-                <p class="p-3 bg-dark text-white text-center">mail:anew.wall0@gmail.com</p>
+                <p class="p-3 bg-dark text-white text-center">anew.wall0@gmail.com</p>
         </div>
 
     </section>
