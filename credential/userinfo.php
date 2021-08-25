@@ -14,9 +14,8 @@ $name=$_POST['name'];
 $body=$mobile." ".$name;
 $email=$_POST['email'];
 sendmail("jagtapshruti2610@gmail.com","Reminder for call ".$name,$body);
-echo "Calling for 1st";
 sendmail($email,$name.", You will be notified soon","Thankyou for joining with us.We will call you soon");
-echo "Calling for 2nd";
+
 function sendmail($email,$subject,$body)
 {
 echo $email."<br>";
@@ -35,10 +34,9 @@ $mail->addAddress("$email");
 $mail->Subject = ("$subject");
 $mail->Body= $body;
   if($mail->send())
-    {echo"Sucess";
+    {header("Location: index.php");
     }
-  else {
-    echo"cannot send mail";
+  else {header("Location: index.php#contactus");
   }
 
 }
