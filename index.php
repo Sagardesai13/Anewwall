@@ -11,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -98,9 +99,9 @@
 
                 <div class="col-lg-6 col-md-6 col-12">
                     <h2>A new wall</h2>
-                    <p class="py-3"> Shruti jagtap and Sagar Desai.
+                    <p class="py-3"> We are working with artist in our town who want for work and we give them work. These days, present day imaginative divider is sparkling among the houses.We practice to paint and we show our innovativeness to individuals with few charges.
                     <p>
-                        <a href="about/php" class="btn btn-success"> Know more </a>
+                        <a href="aboutus.php" class="btn btn-success"> Know more </a>
                 </div>
             </div>
 
