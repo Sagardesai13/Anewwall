@@ -206,12 +206,12 @@
       </div>
 
     </form>
-
+</div>
         </div>
     </section>
 
-    <footer>
-    <div >
+    <footer >
+    <div>
         <p class="p-3 bg-dark text-white text-center"> By @affairofcolors</p>
    </div>
     </footer>
