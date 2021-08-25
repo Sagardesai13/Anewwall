@@ -16,6 +16,7 @@ sendmail("jagtapshruti2610@gmail.com","Inquiry from customer","Sample body");
 echo "Calling for 2nd";
 function sendmail($email,$subject,$body)
 {
+echo $email."<br>";
 $mail=new PHPMailer();
 $mail->isSMTP();
 $mail->Host ="smtp.gmail.com";
