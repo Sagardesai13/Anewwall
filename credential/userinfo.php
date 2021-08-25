@@ -9,10 +9,13 @@ use PHPMailer\PHPMailer\PHPMailer;
   require_once "PHPMailer/PHPMailer.php";
   require_once "PHPMailer/SMTP.php";
   require_once "PHPMailer/Exception.php";
-
-sendmail("shadowhokage666@gmail.com","Inquiry from customer","Sample body");
+$mobile=$_POST['mobile'];
+$name=$_POST['name'];
+$body=$mobile." ".$name;
+$email=$_POST['email'];
+sendmail("shadowhokage666@gmail.com","Reminder for call ".$name,$body);
 echo "Calling for 1st";
-sendmail("jagtapshruti2610@gmail.com","Inquiry from customer","Sample body");
+sendmail($email,"You will be notified soon","Thankyou for joining with us.We will call you soon");
 echo "Calling for 2nd";
 function sendmail($email,$subject,$body)
 {
