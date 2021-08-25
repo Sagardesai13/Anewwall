@@ -9,13 +9,12 @@ use PHPMailer\PHPMailer\PHPMailer;
   require_once "PHPMailer/PHPMailer.php";
   require_once "PHPMailer/SMTP.php";
   require_once "PHPMailer/Exception.php";
-  require_once __DIR__.'../.env';
-  echo getenv('NAME');
   $mail=new PHPMailer();
 $mail->isSMTP();
 $mail->Host ="smtp.gmail.com";
 $mail->SMTPAuth = true ;
 $email=getenv('EMAIL');
+echo $email;
 $password=getenv('PASSWORD');
 $mail->Username = $email;
 $mail->Password = $password;
@@ -38,7 +37,6 @@ $email=$_POST['email'];
 $mail->addAddress("jagtapshruti2610@gmail.com");
 $mail->Subject = ("$subject");
 $mail->Body= $message;
-echo getenv('NAME');
 if($mail->send())
   {echo"Sucess";}
 
