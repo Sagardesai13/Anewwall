@@ -184,11 +184,11 @@
         </div>
         <div class="w-50 m-auto">
 
-            <section class="my-5">
-                <div class="py-5">
+            <section class="my-auto">
+                <div class="py-auto">
                     <h2 class="text-center" id="contactus">Contact Us</h2>
                  <p class="p-3 bg-dark text-white text-center"> Call on: 9875068553</p>
-                <p class="p-6 bg-dark text-white text-center">mail:anew.wall0@gmail.com</p>
+                <p class="p-3 bg-dark text-white text-center">mail:anew.wall0@gmail.com</p>
         </div>
 
     </section>
