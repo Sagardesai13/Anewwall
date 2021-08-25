@@ -189,7 +189,7 @@
                 <div class="py-auto">
                     <h2 class="text-center" id="contactus">Contact Us</h2>
                 <form action="credential/userinfo.php" method="post">
-      <div class="form-group">
+      <div class="form-group pb-4">
           <label> Phone number </label>
           <input type="text" name="mobile" autocomplete="off" class="form-control" >
           <label>  name </label>
@@ -212,7 +212,7 @@
     </section>
     </div>
     <footer>
-        <p class="pt-3 bg-dark text-white text-center"> By @affairofcolors</p>
+        <p class="p-3 bg-dark text-white text-center"> By @affairofcolors</p>
     </footer>
     <script type="text/javascript">
     function sendEmail() {
