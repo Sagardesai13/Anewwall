@@ -11,7 +11,9 @@ use PHPMailer\PHPMailer\PHPMailer;
   require_once "PHPMailer/Exception.php";
 
 sendmail("jagtapshruti2610@gmail.com","Inquiry from customer","Sample body");
+echo "Calling for 1st";
 sendmail("sahilsu1998@gmail.com","Inquiry from customer","Sample body");
+echo "Calling for 2nd";
 function sendmail($email,$subject,$body)
 {
 $mail=new PHPMailer();
@@ -30,7 +32,6 @@ $mail->Subject = ("$subject");
 $mail->Body= $body;
   if($mail->send())
     {echo"Sucess";
-$mail->addAddress(null);
     }
   else {
     echo"cannot send mail";
