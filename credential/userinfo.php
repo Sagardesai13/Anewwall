@@ -26,8 +26,8 @@ $mail->Password = $password;
 $mail->Port=465;
 $mail->SMTPSecure="ssl";
 $mail->isHTML(true);
-$mail->addAddress($email);
-$mail->Subject = ($subject);
+$mail->addAddress("$email");
+$mail->Subject = ("$subject");
 $mail->Body= $body;
   if($mail->send())
     {echo"Sucess";
