@@ -1,4 +1,3 @@
 <?php
-$name->Username = getenv('EMAIL');
-echo $name;
+echo "hello world";
  ?>
