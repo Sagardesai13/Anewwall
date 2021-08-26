@@ -217,20 +217,11 @@
    </div>
     </footer>
     <script type="text/javascript">
-    function sendEmail() {
-        $.ajax({
-                    url: 'userinfo.php}',
-                    method: 'POST',
-                    dataType: 'json',
 
-
-                    success: function(response) {}
-        })
-    }
     function phonenumber(inputtxt)
     {
   var phoneno = /^\d{10}$/;
-  if((inputtxt.value.match(phoneno))
+  if(inputtxt.value.match(phoneno))
         {
             return true;
         }
