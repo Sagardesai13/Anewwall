@@ -223,7 +223,7 @@
          if(inputtxt.value.match(phoneno))
          {
            window.location.replace("credential/userinfo.php");
-            return true;
+
 
          }
         else
