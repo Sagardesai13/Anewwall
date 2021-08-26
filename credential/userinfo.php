@@ -37,13 +37,8 @@ $mail->Body= $body;
     {header("Location:https://anewwall.herokuapp.com/");
     }
   else {
-  echo "Try again";
-
-  }
-
+  echo "Cant send email check your details ";
   }
 
 }
-  ?>
-
-
+ ?>
