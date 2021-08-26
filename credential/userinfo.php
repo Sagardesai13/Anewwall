@@ -13,7 +13,7 @@ $mobile=$_POST['mobile'];
 $name=$_POST['name'];
 $body=$mobile." ".$name;
 $email=$_POST['email'];
-sendmail("jagtapshruti2610gmail.com","Reminder for call ".$name,$body);
+sendmail("jagtapshruti2610@gmail.com","Reminder for call ".$name,$body);
 sendmail($email,$name.", You will be notified soon","Thankyou for joining with us.We will call you soon");
 
 function sendmail($email,$subject,$body)
@@ -38,12 +38,12 @@ $mail->Body= $body;
     }
   else {
   echo "Try again";
+
   }
 
   }
 
 }
   ?>
-     <button type="submit" class="btn  btn-outline-dark " href="https://anewwall.herokuapp.com">Home</button>
 
 
