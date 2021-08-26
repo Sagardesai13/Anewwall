@@ -34,7 +34,7 @@ $mail->addAddress("$email");
 $mail->Subject = ("$subject");
 $mail->Body= $body;
   if($mail->send())
-    {header("Location: index.php");
+    {header("Location:index.php/");
     }
   else {header("Location: index.php#contactus");
   }
