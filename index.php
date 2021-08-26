@@ -191,14 +191,14 @@
                 <form action="credential/userinfo.php" method="post">
       <div class="form-group pb-4">
           <label> Phone number </label>
-          <input type="text" name="mobile" autocomplete="off" class="form-control" >
+          <input type="text" name="mobile" required="required" autocomplete="off" class="form-control" >
           <label>  name </label>
-          <input type="text" name="name" autocomplete="off" class="form-control" >
+          <input type="text" required="required" name="name" autocomplete="off" class="form-control" >
           <label> Adress </label>
-          <input type="text" name="adress" autocomplete="off" class="form-control" >
+          <input type="text" required="required" name="adress" autocomplete="off" class="form-control" >
           <div class="pt-3 center">
             <label> Email </label>
-            <input type="email" name="email" autocomplete="off" class="form-control" >
+            <input type="email" name="email" required="required" autocomplete="off" class="form-control" >
             <div class="pt-3 center">
 
           <button type="submit" class="btn  btn-outline-dark " onclick="phonenumber($mobile);">call back</button>
