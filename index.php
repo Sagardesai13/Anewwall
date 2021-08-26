@@ -21,7 +21,7 @@
     <title>A New Wall</title>
 </head>
 
-<body onload='document.form1.text1.focus()'>
+<body >
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">A New Wall</a>
@@ -232,13 +232,13 @@
   var phoneno = /^\d{10}$/;
   if((inputtxt.value.match(phoneno))
         {
-      return true;
+            return true;
         }
-      else
-        {
-        alert("Enter valid Mobilenumber");
-        return false;
-        }
+  else
+       {
+            alert("Enter valid Mobilenumber");
+            return false;
+       }
   }
 
     </script>
