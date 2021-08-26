@@ -188,7 +188,7 @@
         <div class="w-50 m-auto">
   <div class="py-auto">
                     <h2 class="text-center" id="contactus">Contact Us</h2>
-                <form action="credential/userinfo.php" name="form1" method="post">
+                <form action="" name="form1" method="post">
       <div class="form-group pb-4">
           <label> Phone number </label>
           <input type="number" name="mobile" required autocomplete="off" class="form-control" >
@@ -200,7 +200,6 @@
             <label> Email </label>
             <input type="email" name="email" required autocomplete="off" class="form-control" >
             <div class="pt-3 center">
-
           <button type="submit" class="btn  btn-outline-dark " onclick="phonenumber(document.form1.mobile)">call back</button>
       </div>
        </div>
@@ -220,15 +219,16 @@
 
     function phonenumber(inputtxt)
     {
-  var phoneno = /^\d{10}$/;
-  if(inputtxt.value.match(phoneno))
-        {
+         var phoneno = /^\d{10}$/;
+         if(inputtxt.value.match(phoneno))
+         {
+           window.location.replace("credential/userinfo.php");
             return true;
-        }
-  else
+
+         }
+        else
        {
             alert("Enter valid Mobilenumber");
-
        }
   }
 
