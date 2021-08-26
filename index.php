@@ -21,7 +21,7 @@
     <title>A New Wall</title>
 </head>
 
-<body>
+<body onload='document.form1.text1.focus()'>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">A New Wall</a>
@@ -188,7 +188,7 @@
         <div class="w-50 m-auto">
   <div class="py-auto">
                     <h2 class="text-center" id="contactus">Contact Us</h2>
-                <form action="credential/userinfo.php" method="post">
+                <form action="credential/userinfo.php" name="form1" method="post">
       <div class="form-group pb-4">
           <label> Phone number </label>
           <input type="number" name="mobile" required autocomplete="off" class="form-control" >
@@ -201,7 +201,7 @@
             <input type="email" name="email" required autocomplete="off" class="form-control" >
             <div class="pt-3 center">
 
-          <button type="submit" class="btn  btn-outline-dark " onclick="phonenumber($mobile);">call back</button>
+          <button type="submit" class="btn  btn-outline-dark " onclick="phonenumber(document.form1.mobile)">call back</button>
       </div>
        </div>
       </div>
@@ -227,6 +227,20 @@
                     success: function(response) {}
         })
     }
+    function phonenumber(mobile)
+{
+  var phoneno = /^\d{10}$/;
+  if((mobile.value.match(phoneno))
+        {
+      return true;
+        }
+      else
+        {
+        alert("message");
+        return false;
+        }
+}
+
     </script>
 
     <!-- Optional JavaScript; choose one of the two! -->
