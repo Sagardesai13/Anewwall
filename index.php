@@ -183,8 +183,7 @@
                 </div>
             </div>
         </div>
-            <section class="my-auto">
-
+            <section class="my-auto"
         <div class="w-50 m-auto">
   <div class="py-auto">
                     <h2 class="text-center" id="contactus">Contact Us</h2>
