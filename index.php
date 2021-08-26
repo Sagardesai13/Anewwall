@@ -228,7 +228,7 @@
   else
        {
             alert("Enter valid Mobilenumber");
-            return false;
+            window.location = "https://anewwall.herokuapp.com/";
        }
   }
 
