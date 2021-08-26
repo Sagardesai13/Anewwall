@@ -227,19 +227,19 @@
                     success: function(response) {}
         })
     }
-    function phonenumber(mobile)
-{
+    function phonenumber(inputtxt)
+    {
   var phoneno = /^\d{10}$/;
-  if((mobile.value.match(phoneno))
+  if((inputtxt.value.match(phoneno))
         {
       return true;
         }
       else
         {
-        alert("message");
+        alert("Enter valid Mobilenumber");
         return false;
         }
-}
+  }
 
     </script>
 
