@@ -34,7 +34,7 @@ $mail->addAddress("$email");
 $mail->Subject = ("$subject");
 $mail->Body= $body;
   if($mail->send())
-    {header("Location:index.php/");
+    {header("Location:https://anewwall.herokuapp.com/");
     }
   else {header("Location: index.php#contactus");
   }
