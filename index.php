@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 
@@ -11,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -21,7 +20,7 @@
     <title>A New Wall</title>
 </head>
 
-<body >
+<body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">A New Wall</a>
@@ -99,7 +98,9 @@
 
                 <div class="col-lg-6 col-md-6 col-12">
                     <h2>A new wall</h2>
-                    <p class="py-3"> We are working with artist in our town who want for work and we give them work. These days, present day imaginative divider is sparkling among the houses.We practice to paint and we show our innovativeness to individuals with few charges.
+                    <p class="py-3"> We are working with artist in our town who want for work and we give them work.
+                        These days, present day imaginative divider is sparkling among the houses.We practice to paint
+                        and we show our innovativeness to individuals with few charges.
                     <p>
                         <a href="aboutus.php" class="btn btn-success"> Know more </a>
                 </div>
@@ -183,65 +184,57 @@
                 </div>
             </div>
         </div>
-            <section class="my-auto"
-        <div class="w-50 m-auto">
-  <div class="py-auto">
+        <section class="my-auto">
+            <div class="w-70 m-auto">
+                <div class="py-auto">
                     <h2 class="text-center" id="contactus">Contact Us</h2>
-                <form action="credential/userinfo.php" name="form1" method="post">
-      <div class="form-group pb-4">
-          <label> Phone number </label>
-          <input type="number" name="mobile" required autocomplete="off" class="form-control" >
-          <label>  name </label>
-          <input type="text" required name="name" autocomplete="off" class="form-control" >
-          <label> Adress </label>
-          <input type="text" required name="adress" autocomplete="off" class="form-control" >
-          <div class="pt-3 center">
-            <label> Email </label>
-            <input type="email" name="email" required autocomplete="off" class="form-control" >
-            <div class="pt-3 center">
-          <button type="submit" class="btn  btn-outline-dark " onclick="phonenumber(document.form1.mobile)">call back</button>
-      </div>
-       </div>
-      </div>
+                    <form action="credential/userinfo.php" name="form1" method="post"
+                        style="display:flex; flex-direction:column; align-items:center;">
+                        <div class="form-group">
+                            <label> Phone number </label>
+                            <input type="number" name="mobile" required autocomplete="off" class="form-control">
+                            <label> Name </label>
+                            <input type="text" required name="name" autocomplete="off" class="form-control">
+                            <label> Adress </label>
+                            <input type="text" required name="adress" autocomplete="off" class="form-control">
+                            <label> Email </label>
+                            <input type="email" name="email" required autocomplete="off" class="form-control">
+                            <div class="pt-3 center">
+                                <button type="submit" class="btn  btn-outline-dark "
+                                    onclick="phonenumber(document.form1.mobile)">call back</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <br>
+        <footer>
+            <div>
+                <p class="p-3  bg-dark text-white text-center"> By @affairofcolors</p>
+            </div>
+        </footer>
+        <script type="text/javascript">
+        function phonenumber(inputtxt) {
+            var phoneno = /^\d{10}$/;
+            if (inputtxt.value.match(phoneno)) {
+                return true;
+            } else {
+                alert("Enter valid Mobilenumber");
+                return false;
+            }
+        }
+        </script>
 
-    </form>
-</div>
-        </div>
-    </section>
+        <!-- Optional JavaScript; choose one of the two! -->
 
-    <footer >
-    <div>
-        <p class="p-3  bg-dark text-white text-center"> By @affairofcolors</p>
-   </div>
-    </footer>
-    <script type="text/javascript">
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+        </script>
 
-    function phonenumber(inputtxt)
-    {
-         var phoneno = /^\d{10}$/;
-         if(inputtxt.value.match(phoneno))
-         {
-            return true;
-         }
-
-        else
-       {
-            alert("Enter valid Mobilenumber");
-            return false;
-       }
-  }
-
-    </script>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
-    </script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
     -->
