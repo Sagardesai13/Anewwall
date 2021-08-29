@@ -41,7 +41,7 @@
                         <a class="nav-link" href="#ourservice">Our Servicies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#gallary">Gallary</a>
+                        <a class="nav-link" href="#gallary">Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contactus">Contact Us</a>
@@ -158,7 +158,7 @@
     </section>
     <section class="my-5">
         <div class="py-5">
-            <h2 class="text-center" id="gallery">Gallary
+            <h2 class="text-center" id="gallary">Gallery
                 <hr>
             </h2>
         </div>
