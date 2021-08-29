@@ -20,7 +20,7 @@
     <title>A New Wall</title>
 </head>
 
-<body>
+<body style="height:0;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">A New Wall</a>
