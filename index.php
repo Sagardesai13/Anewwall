@@ -209,7 +209,6 @@
 </div>
         </div>
     </section>
-
     <footer >
     <div>
         <p class="p-3  bg-dark text-white text-center"> By @affairofcolors</p>
