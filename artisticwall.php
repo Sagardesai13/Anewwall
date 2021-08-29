@@ -41,7 +41,7 @@
                          <a class="nav-link" href="index.php#ourservice">Our Servicies</a>
                      </li>
                      <li class="nav-item">
-                         <a class="nav-link" href="index.php#gallary">Gallary</a>
+                         <a class="nav-link" href="index.php#gallary">Gallery</a>
                      </li>
                      <li class="nav-item">
                          <a class="nav-link" href="index.php#contactus">Contact Us</a>
