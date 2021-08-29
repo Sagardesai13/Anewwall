@@ -196,6 +196,7 @@
           <label> Adress </label>
           <input type="text" required name="adress" autocomplete="off" class="form-control" >
           <div class="pt-3 center">
+
             <label> Email </label>
             <input type="email" name="email" required autocomplete="off" class="form-control" >
             <div class="pt-3 center">
