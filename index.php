@@ -199,7 +199,7 @@
                             <input type="text" required name="adress" autocomplete="off" class="form-control">
                             <label> Email </label>
                             <input type="email" name="email" required autocomplete="off" class="form-control">
-                            <div class="pt-3 center">
+                            <div class="pt-3 text-center">
                                 <button type="submit" class="btn  btn-outline-dark "
                                     onclick="phonenumber(document.form1.mobile)">call back</button>
                             </div>
