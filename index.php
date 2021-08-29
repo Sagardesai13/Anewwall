@@ -190,7 +190,7 @@
                     <h2 class="text-center" id="contactus">Contact Us</h2>
                     <form action="credential/userinfo.php" name="form1" method="post"
                         style="display:flex; flex-direction:column; align-items:center;">
-                        <div class="form-group">
+                        <div class="form-group" style="width:315px;">
                             <label> Phone number </label>
                             <input type="number" name="mobile" required autocomplete="off" class="form-control">
                             <label> Name </label>
