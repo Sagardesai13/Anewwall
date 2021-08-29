@@ -158,7 +158,7 @@
     </section>
     <section class="my-5">
         <div class="py-5">
-            <h2 class="text-center" id="gallary">Gallary
+            <h2 class="text-center" id="gallery">Gallary
                 <hr>
             </h2>
         </div>
