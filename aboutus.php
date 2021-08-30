@@ -20,7 +20,7 @@
     <title>A New Wall</title>
 </head>
 
-<body>
+<body style="height:0;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">A New Wall</a>
@@ -107,9 +107,9 @@
         </div>
     </div>
 
-    <footer class="bg-dark py-3">
-        <div class="container text-center">
-            <p class="text-white">By @affairofcolors.</p>
+    <footer>
+        <div>
+        <p class="p-3  bg-dark text-white text-center">  Image Source: Pinterest <br><br> Created By @affairofcolors</p>
         </div>
     </footer>
 

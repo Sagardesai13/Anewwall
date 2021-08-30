@@ -211,7 +211,7 @@
         <br>
         <footer>
             <div>
-                <p class="p-3  bg-dark text-white text-center"> By @affairofcolors</p>
+            <p class="p-3  bg-dark text-white text-center">  Image Source: Pinterest <br><br> Created By @affairofcolors</p>
             </div>
         </footer>
         <script type="text/javascript">
