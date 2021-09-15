@@ -192,7 +192,6 @@ z-index:1;
             </div>
         </div>
     </section>
-
    <section class="my-5">
 
         <div class="py-5">
