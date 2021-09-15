@@ -18,6 +18,42 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <title>A New Wall</title>
+    <style>
+
+.mainwall{
+height:500px;
+width:30%;
+display:block;
+position:absolute;
+
+background-image:url(mainwall.jfif);
+left:0;
+right:0;
+z-index:1;
+}
+.designedwall{
+	height:310px;
+	width:75%;
+	position:relative;
+	left:70%;
+	top:10px;
+    display:block;
+	z-index:2;
+
+	background-image:url(wall.jpg);
+	background-repeat:repeat-x;
+	animation:wall 20s linear infinite;
+	animation-duration:4s;
+}
+@keyframes wall{
+
+	100%{
+		left:120px;
+		right:0px;
+
+	}
+}
+    </style>
 </head>
 
 <body style="height:0;">
@@ -156,6 +192,25 @@
             </div>
         </div>
     </section>
+
+   <section class="my-5">
+
+        <div class="py-5">
+            <h2 class="text-center" id="makewall">Make my wall
+                <hr>
+
+            </h2>
+        </div>
+  <div class="col-lg-4 px-4 mx-auto order-1 order-lg-2"><p>
+  Want to see illusion of your new wall? then you must try this.</p>
+    <a href="#" class="btn btn-primary">Try</a>
+  </div>
+              <div class="mainwall">
+                <div class="designedwall">
+        </div>
+        </div>
+
+   </section>
     <section class="my-5">
         <div class="py-5">
             <h2 class="text-center" id="gallary">Gallery
@@ -208,7 +263,7 @@
                 </div>
             </div>
         </section>
-        <br>
+<br>
         <footer>
             <div>
                 <p class="p-3  bg-dark text-white text-center"> By @affairofcolors</p>
